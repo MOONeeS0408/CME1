@@ -38,4 +38,10 @@
     <string name="op_exitosa">Operación Exitosa</string>
     <string name="op_fallida">Operación Fallida</string>
 
+    <string name="text1">El pago realizado con la tarjeta con terminación ***</string>
+    <string name="text2"> fue realizado con éxito\n\n Se ha realizado un cargo de $ </string>
+    <string name="text3">" "</string>
+    <string name="text4">fue rechazado</string>
+
+
 </resources>

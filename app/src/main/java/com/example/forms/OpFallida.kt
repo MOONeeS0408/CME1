@@ -26,10 +26,10 @@ class OpFallida : AppCompatActivity() {
 
 
         val datosRecibidos = intent.extras
-        val nombre = datosRecibidos?.getString("titular")
-        val tarjeta = datosRecibidos?.getString("tarjeta")
 
-        val titular = nombre?.toUpperCase() ?: ""
+        val tarjeta = datosRecibidos?.getString("tarjeta")
+        val pago = datosRecibidos?.getString("pago")
+
 
 
         val ultimosCuatroDigitos: String = if (tarjeta != null) {
@@ -43,7 +43,8 @@ class OpFallida : AppCompatActivity() {
 
         // Utilizar los datos como sea necesario
         // Por ejemplo, mostrar los datos en TextViews
-        binding.tvDescrip.text = "El pago realizado con la tarjeta con terminación ***$ultimosCuatroDigitos fue rechazado"
+
+        binding.tvDescrip.text = resources.getString(R.string.text1) + "$ultimosCuatroDigitos" + resources.getString(R.string.text2) + "$pago" + resources.getString(R.string.text4)
 
     }
 

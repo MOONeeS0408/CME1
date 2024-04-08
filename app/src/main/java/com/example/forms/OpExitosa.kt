@@ -38,9 +38,6 @@ class OpExitosa : AppCompatActivity() {
 
         // Utilizar los datos como sea necesario
         // Por ejemplo, mostrar los datos en TextViews
-        binding.tvDescrip.text = "El pago realizado con la tarjeta con terminación ***$ultimosCuatroDigitos fue realizado con éxito\n\n Se ha realizado un cargo de \$$pago"
-
+        binding.tvDescrip.text = resources.getString(R.string.text1) + "$ultimosCuatroDigitos" + resources.getString(R.string.text2) + "$pago" + resources.getString(R.string.text3)
     }
-
-
 }

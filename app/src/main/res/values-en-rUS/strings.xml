@@ -23,4 +23,8 @@
     <string name="nombre_vacio">Please complete this field</string>
     <string name="op_exitosa">Successful payment</string>
     <string name="op_fallida">Payment failed</string>
+    <string name="text1">The payment made with the card ending in ***</string>
+    <string name="text2">" was successfully carried out.\n\n A charge of $ "</string>
+    <string name="text3"> has been made</string>
+    <string name="text4">was rejected</string>
 </resources>
