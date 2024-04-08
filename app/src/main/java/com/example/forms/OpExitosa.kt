@@ -26,19 +26,19 @@ class OpExitosa : AppCompatActivity() {
         val datosRecibidos = intent.extras
 
         val tarjeta = datosRecibidos?.getString("tarjeta")
-
+        val pago = datosRecibidos?.getString("pago")
         val ultimosCuatroDigitos: String = if (tarjeta != null) {
             // Si la tarjeta no es nula, obtener los últimos cuatro dígitos
             tarjeta.substring(tarjeta.length - 4)
         } else {
-            // Si la tarjeta es nula, asignar un valor predeterminado
+            // Si la tarjeta es nula
             Toast.makeText(this, resources.getString(R.string.tarjeta_invalido), Toast.LENGTH_SHORT).show()
             ""
         }
 
         // Utilizar los datos como sea necesario
         // Por ejemplo, mostrar los datos en TextViews
-        binding.tvDescrip.text = "El pago realizado con la tarjeta con terminación ***$ultimosCuatroDigitos fue realizado con éxito"
+        binding.tvDescrip.text = "El pago realizado con la tarjeta con terminación ***$ultimosCuatroDigitos fue realizado con éxito\n\n Se ha realizado un cargo de \$$pago"
 
     }
 

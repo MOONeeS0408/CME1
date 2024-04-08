@@ -1,20 +1,22 @@
 <resources>
-    <string name="app_name">Forms</string>
+    <string name="app_name" translatable="false">Pago</string>
+    <string name="inicio">Iniciando...</string>
+    <string name="version">Versión 1.0</string>
+
     <string name="pago">PAGO</string>
+
     <string name="datos_tarjeta">Seleccione la forma de pago y los datos de su tarjeta</string>
     <string name="email">Correo electrónico</string>
     <string name="total">Total a pagar</string>
     <string name="tarjeta">Número de tarjeta</string>
     <string name="FechaVenc">Fecha de vencimiento</string>
-    <string name="mes">MM</string>
-    <string name="diagonal">/</string>
-    <string name="año">AA</string>
-    <string name="cvv">CVV</string>
+    <string name="mes" translatable="false">MM</string>
+    <string name="diagonal" translatable="false">/</string>
+    <string name="año" translatable="false">AA</string>
+    <string name="cvv" translatable="false">CVV</string>
     <string name="name">Nombre del titular</string>
-    <string name="pesos">$</string>
-    <string name="confirmar">confirmar</string>
-
-    <string name="atras">Atras</string>
+    <string name="pesos" translatable="false">$</string>
+    <string name="confirmar">Confirmar</string>
 
     <string name="email_requerido">Email requerido</string>
     <string name="email_invalido">Ingresa un email válido</string>
@@ -33,10 +35,7 @@
 
     <string name="nombre_vacio">Por favor completa este campo</string>
 
-
-
     <string name="op_exitosa">Operación Exitosa</string>
     <string name="op_fallida">Operación Fallida</string>
-
 
 </resources>

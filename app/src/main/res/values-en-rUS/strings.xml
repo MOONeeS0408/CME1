@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="inicio">Starting...</string>
+    <string name="version">Version 1.0</string>
+    <string name="pago">PAYMENT</string>
+    <string name="datos_tarjeta">Select the payment method and enter your card details.</string>
+    <string name="email">E-mail</string>
+    <string name="total">Total payment</string>
+    <string name="tarjeta">Card number</string>
+    <string name="FechaVenc">Expiration date</string>
+    <string name="name">Cardholder\'s name</string>
+    <string name="confirmar">Confirm</string>
+    <string name="email_requerido">E-mail required</string>
+    <string name="email_invalido">Enter a valid email</string>
+    <string name="tarjeta_invalido">Invalid card number</string>
+    <string name="tarjeta_requerida">Card number required</string>
+    <string name="mes_requerido">Month required</string>
+    <string name="mes_invalido">Enter a valid month</string>
+    <string name="year_requerido">Year required</string>
+    <string name="year_invalido">Enter a valid year</string>
+    <string name="cvv_requerido">CVV required</string>
+    <string name="cvv_invalido">Enter a valid CVV</string>
+    <string name="nombre_vacio">Please complete this field</string>
+    <string name="op_exitosa">Successful payment</string>
+    <string name="op_fallida">Payment failed</string>
+</resources>

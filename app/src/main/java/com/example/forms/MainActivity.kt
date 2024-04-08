@@ -143,26 +143,23 @@ class MainActivity : AppCompatActivity() {
 
             var titular = binding.etTitular.text.toString()
             val tarjeta = binding.etTarjeta.text.toString()
+            val pago = binding.tvPrecio.text.toString()
 
             titular = titular.toLowerCase()
 
-            Log.d("MainActivity", "Titular: $titular, Tarjeta: $tarjeta")
+            Log.d("MainActivity", "Titular: $titular, Pago: $pago , Tarjeta: $tarjeta")
             // Crear un Bundle y agregar los datos
             val bundle = Bundle().apply {
                 putString("titular", titular)
                 putString("tarjeta", tarjeta)
+                putString("pago", pago)
             }
-
-
 
             // Preparar el Intent para iniciar la nueva actividad
             intent.putExtras(bundle)
 
-
             // Iniciar la nueva actividad
             startActivity(intent)
-
-
         }
     }
 
