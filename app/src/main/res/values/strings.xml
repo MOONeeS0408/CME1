@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Forms</string>
+    <string name="pago">PAGO</string>
+    <string name="datos_tarjeta">Seleccione la forma de pago y los datos de su tarjeta</string>
+    <string name="email">Correo electrónico</string>
+    <string name="total">Total a pagar</string>
+    <string name="tarjeta">Número de tarjeta</string>
+    <string name="FechaVenc">Fecha de vencimiento</string>
+    <string name="mes">MM</string>
+    <string name="diagonal">/</string>
+    <string name="año">AA</string>
+    <string name="cvv">CVV</string>
+    <string name="name">Nombre del titular</string>
+    <string name="pesos">$</string>
+    <string name="confirmar">confirmar</string>
+
+    <string name="atras">Atras</string>
+
+    <string name="email_requerido">Email requerido</string>
+    <string name="email_invalido">Ingresa un email válido</string>
+
+    <string name="tarjeta_invalido">Numero de tarjeta inválido</string>
+    <string name="tarjeta_requerida">Numero de tarjeta requerido</string>
+
+    <string name="mes_requerido">Mes requerido</string>
+    <string name="mes_invalido">Ingresa un mes válido</string>
+
+    <string name="year_requerido">Año requerido</string>
+    <string name="year_invalido">Ingresa un año válido</string>
+
+    <string name="cvv_requerido">CVV requerido</string>
+    <string name="cvv_invalido">Ingresa un CVV válido</string>
+
+    <string name="nombre_vacio">Por favor completa este campo</string>
+
+
+
+    <string name="op_exitosa">Operación Exitosa</string>
+    <string name="op_fallida">Operación Fallida</string>
+
+
+</resources>
